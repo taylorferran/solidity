@@ -193,7 +193,9 @@ of votes.
 Possible Improvements
 =====================
 
-Currently, many transactions are needed to assign the rights
-to vote to all participants, and ``winningProposal()`` will
-not work correctly if two or more proposals are tied in voteCount.
-Can you think of a way to fix these issues?
+Currently, many transactions are needed to
+assign the rights to vote to all participants,
+and ``winningProposal()`` will not return there
+is a tie if two or more proposals have the same
+number of votes. Can you think of a way to fix
+these issues?
