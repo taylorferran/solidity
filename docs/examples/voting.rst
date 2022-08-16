@@ -195,7 +195,7 @@ Possible Improvements
 
 Currently, many transactions are needed to
 assign the rights to vote to all participants,
-and ``winningProposal()`` will not return there
+and ``winningProposal()`` will not register there
 is a tie if two or more proposals have the same
 number of votes. Can you think of a way to fix
 these issues?
